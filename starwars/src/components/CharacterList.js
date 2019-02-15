@@ -22,8 +22,8 @@ import Character from './Character';
     
 
 const CharacterList = props => {
-    console.log(props)
-    return <div>{props.allCharacters.map(c => <Character name={c.name}  />)}</div>;
+    // console.log(props)
+    return <ul>{props.allCharacters.map(c => <Character name={c} key={c.name} />)}</ul>;
 }
 
 export default CharacterList;
