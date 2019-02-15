@@ -1,0 +1,28 @@
+.help(){
+    border:1px solid red;
+}
+
+.border(){
+    border: 2px solid #eee;
+    border-radius: 15px;
+}
+
+.center-flex(@justify:center, @align:center){
+    display:flex;
+    flex-direction: column;
+    justifiy-content: @justify;
+    align-items: @align;
+}
+
+ul {
+    // .help;
+    width: 80%;
+    .center-flex;
+    .border;
+    background: rgba(0, 0, 0, 0.5);
+    
+    li{
+        color: white;
+        margin: 1 rem; 
+    }
+}
