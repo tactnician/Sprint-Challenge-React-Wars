@@ -8,3 +8,7 @@ ul {
   border-radius: 15px;
   background: rgba(0, 0, 0, 0.5);
 }
+ul li {
+  color: white;
+  margin: 1 rem;
+}
