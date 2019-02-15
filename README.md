@@ -26,11 +26,17 @@ Demonstrate your understanding of this Sprint's concepts by answering the follow
 
 - [ ] What is React JS and what problems does it try and solve? Support your answer with concepts introduced in class and from your personal research on the web.
 
+    ~ React seeks to simplify dom manipulation by offloading the doms state to a virtual dom. 
+
 - [ ] What does it mean to _think_ in react?
 
 - [ ] Describe state.
 
+    ~ State is an object built on the constructor of a class component. It is immutable. It's properties can only be changed using setState().It holds the 'state' of out component. 
+
 - [ ] Describe props.
+
+    ~ Props short for properties are read only pieces of data attached to JSX. They are how components share data. 
 
 ## Project Set Up
 
